@@ -79,7 +79,7 @@ const AffixMenu = () => {
           position: "fixed",
           zIndex: "3",
           display: "flex",
-          height: "17%",
+          height: "100px",
           background: "white",
         }}
         offsetTop={TOP}
