@@ -1,6 +1,7 @@
 import Aos from "aos";
 import AffixMenu from "./components/AffixMenu";
 import Contact from "./components/Contact";
+import TemporaryDrawer from "./components/Drawer";
 import FeaturesComp from "./components/FeaturesComp";
 import Footer from "./components/Footer";
 import Header from "./components/Header";

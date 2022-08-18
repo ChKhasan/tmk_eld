@@ -2,6 +2,7 @@ import { Affix, Button, Drawer } from "antd";
 import React, { useEffect, useState } from "react";
 // import { Affix } from "antd";
 import { dataAffixId } from "./dataAffixId";
+import TemporaryDrawer from "./Drawer";
 const AffixMenu = () => {
   const [visible, setVisible] = useState(false);
 
@@ -69,29 +70,25 @@ const AffixMenu = () => {
 
   return (
     // <div className="d-none d-lg-block  " style={{}}>
-      <div className="container-fluid position-relative d-flex justify-content-center">
-        <Drawer title="Basic Drawer" placement="right" onClose={onClose} visible={visible}>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-      </Drawer>
-        <Affix
-          data-spy="nav-color"
-          data-offset-top="0"
-          className="container-fluid"
-          style={{
-            position: "fixed",
-            zIndex: "3",
-            display: "flex",
-            background: "white",
-            height: "80px"
-          }}
-          offsetTop={TOP}
+    <div className="container-fluid position-relative d-flex justify-content-center">
+      <Affix
+        data-spy="nav-color"
+        data-offset-top="0"
+        className="container-fluid"
+        style={{
+          position: "fixed",
+          zIndex: "3",
+          display: "flex",
+          height: "17%",
+          background: "white",
+        }}
+        offsetTop={TOP}
+      >
+        <div
+          className=" container"
+          style={{ background: "white", width: "100%" }}
         >
-     
-          <div className=" container">
-            <div className="row header">
-
+          <div className="row header">
             <div className="col-6 padding_tb_30">
               <img
                 src="Images/Group 427651.png"
@@ -150,13 +147,13 @@ const AffixMenu = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-6 d-flex d-lg-none justify-content-end align-items-center" >  <Button type="primary" onClick={showDrawer}>
-        Open
-      </Button>
-      </div>
+            <div className="col-6 d-flex d-lg-none justify-content-end align-items-center">
+              {" "}
+              <TemporaryDrawer />
             </div>
           </div>
-        </Affix>
+        </div>
+      </Affix>
     </div>
   );
 };
