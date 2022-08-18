@@ -252,6 +252,7 @@ code {
   margin-top: 32px;
   width: 100%;
   aspect-ratio: 1/1.3;
+  z-index: 20 !important;
 }
 .pricing_card p {
   font-family: sans-serif;
@@ -492,4 +493,9 @@ code {
     text-align: center;
 
   }
+}
+.form button:hover, .home_comp button:hover, .pricing_card button:hover {
+  border: 1px solid #ffbb00;
+  color: #ffbb00;
+  background: white;
 }

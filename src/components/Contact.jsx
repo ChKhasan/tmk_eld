@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="container my-5" id="about">
       <div className="row d-flex justify-content-between">
-        <div className="col-lg-5"   data-aos="fade-right"
+        <div className="col-lg-5 mt-4"   data-aos="fade-right"
               data-aos-duration="1200"
             data-aos-once="true">
           <ContactTitle title="Get in Touch" text="We appreciate each company and we are proud that 60% of clients come back to work with us again."/>
@@ -30,7 +30,7 @@ const Contact = () => {
            <img className="w-100" src="Images/Mask.png" alt="" />
           </div>
         </div>
-        <div className="col-lg-5"   data-aos="fade-left"
+        <div className="col-lg-5 mt-4"   data-aos="fade-left"
               data-aos-duration="1200"
             data-aos-once="true">
           <ContactTitle title="You Can Mail Us" text="We are always looking for a next great project."/>

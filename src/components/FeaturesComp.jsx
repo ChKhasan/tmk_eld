@@ -1,5 +1,7 @@
 import React from "react";
 import TitleComp from "./TitleComp";
+import Tilt from "react-parallax-tilt";
+import Title from "react-parallax-tilt";
 
 const FeaturesComp = ({ bool, title, text, img }) => {
   return (
@@ -20,7 +22,9 @@ const FeaturesComp = ({ bool, title, text, img }) => {
               data-aos-duration="1200"
               data-aos-once="true"
             >
-              <img className="w-100" src={img} alt="" />
+              <Title>
+                <img className="w-100" src={img} alt="" />
+              </Title>
             </div>
             <div
               className="col-lg-5 d-flex features_comp_in flex-column "
@@ -53,7 +57,9 @@ const FeaturesComp = ({ bool, title, text, img }) => {
               data-aos-duration="1200"
               data-aos-once="true"
             >
-              <img className="w-100" src={img} alt="" />
+               <Title>
+                <img className="w-100" src={img} alt="" />
+              </Title>
             </div>
           </div>
         )}

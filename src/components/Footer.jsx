@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-lg-3 mt-4">
-            <img src="Images/Group 42765 (1).png" alt="" />
+            <img style={{marginRight: "8px"}} src="Images/Group 42765 (1).png" alt="" />
             <img src="Images/Frame 44370 (1).png" alt="" />
           </div>
           <div className="col-lg-7 d-flex flex-wrap  mt-4 locations  justify-content-between">
