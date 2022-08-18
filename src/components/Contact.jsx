@@ -26,7 +26,8 @@ const Contact = () => {
             <p className="mt-3">Georgia 12473 United States</p>
           </div>
           <div className="map">
-           <img src="Images/Mask.png" alt="" />
+            
+           <img className="w-100" src="Images/Mask.png" alt="" />
           </div>
         </div>
         <div className="col-lg-5"   data-aos="fade-left"

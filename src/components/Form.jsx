@@ -9,10 +9,10 @@ const Form = () => {
       <textarea placeholder="Drop us a message"/>
       <label htmlFor="">Name</label>
       <div className="row">
-        <div className="col-8">
+        <div className="col-lg-8 ">
           <input type="text" className="name" placeholder="Placeholder"/>
         </div>
-        <div className="col-2">
+        <div className="col-lg-2">
           <button>Send</button>
         </div>
       </div>
