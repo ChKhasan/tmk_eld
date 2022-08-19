@@ -61,7 +61,7 @@ const AffixMenu = () => {
       document.querySelector(".actions").style.color = "#000";
     } else {
       setIsVisible(true);
-      document.querySelector(".ant-affix").style.background = "transparent";
+      document.querySelector(".ant-affix").style.background = "#fff";
       dataAffixId.map(
         (item) => (document.querySelector(item.idA).style.color = "#000")
       );
