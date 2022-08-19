@@ -70,8 +70,8 @@ const AffixMenu = () => {
 
   return (
     // <div className="d-none d-lg-block  " style={{}}>
-    <div className="container-fluid position-relative d-flex justify-content-center">
-      <Affix
+    <div className="fixed_affix">
+      {/* <Affix
         data-spy="nav-color"
         data-offset-top="0"
         className="container-fluid"
@@ -83,7 +83,7 @@ const AffixMenu = () => {
           background: "white",
         }}
         offsetTop={TOP}
-      >
+      > */}
         <div
           className=" container"
           style={{ background: "white", width: "100%" }}
@@ -153,7 +153,7 @@ const AffixMenu = () => {
             </div>
           </div>
         </div>
-      </Affix>
+      {/* </Affix> */}
     </div>
   );
 };

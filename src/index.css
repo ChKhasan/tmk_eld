@@ -499,3 +499,14 @@ code {
   color: #ffbb00;
   background: white;
 }
+.fixed_affix {
+  display: flex;
+  position: fixed !important;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  height: 100px;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+}
